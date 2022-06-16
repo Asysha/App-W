@@ -11,6 +11,11 @@
 		7BF4376E285A14B70066B8C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF4376D285A14B70066B8C8 /* ContentView.swift */; };
 		7BF43770285A14B80066B8C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BF4376F285A14B80066B8C8 /* Assets.xcassets */; };
 		7BF43773285A14B80066B8C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BF43772285A14B80066B8C8 /* Preview Assets.xcassets */; };
+		7BF4377A285A1C410066B8C8 /* Warriors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF43779285A1C410066B8C8 /* Warriors.swift */; };
+		7BF4377D285A1C750066B8C8 /* Ennemies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF4377C285A1C750066B8C8 /* Ennemies.swift */; };
+		7BF4377F285A1C9D0066B8C8 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF4377E285A1C9D0066B8C8 /* Profile.swift */; };
+		7BF43781285A20860066B8C8 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF43780285A20860066B8C8 /* Home.swift */; };
+		7BF43783285A27FC0066B8C8 /* Discovery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF43782285A27FC0066B8C8 /* Discovery.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		7BF4376D285A14B70066B8C8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7BF4376F285A14B80066B8C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7BF43772285A14B80066B8C8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7BF43779285A1C410066B8C8 /* Warriors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Warriors.swift; sourceTree = "<group>"; };
+		7BF4377C285A1C750066B8C8 /* Ennemies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ennemies.swift; sourceTree = "<group>"; };
+		7BF4377E285A1C9D0066B8C8 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		7BF43780285A20860066B8C8 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		7BF43782285A27FC0066B8C8 /* Discovery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Discovery.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +63,11 @@
 			children = (
 				7BF4376B285A14B70066B8C8 /* App_exo_WarriorsApp.swift */,
 				7BF4376D285A14B70066B8C8 /* ContentView.swift */,
+				7BF43780285A20860066B8C8 /* Home.swift */,
+				7BF4377C285A1C750066B8C8 /* Ennemies.swift */,
+				7BF43782285A27FC0066B8C8 /* Discovery.swift */,
+				7BF43779285A1C410066B8C8 /* Warriors.swift */,
+				7BF4377E285A1C9D0066B8C8 /* Profile.swift */,
 				7BF4376F285A14B80066B8C8 /* Assets.xcassets */,
 				7BF43771285A14B80066B8C8 /* Preview Content */,
 			);
@@ -137,7 +152,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BF43783285A27FC0066B8C8 /* Discovery.swift in Sources */,
 				7BF4376E285A14B70066B8C8 /* ContentView.swift in Sources */,
+				7BF4377F285A1C9D0066B8C8 /* Profile.swift in Sources */,
+				7BF4377D285A1C750066B8C8 /* Ennemies.swift in Sources */,
+				7BF4377A285A1C410066B8C8 /* Warriors.swift in Sources */,
+				7BF43781285A20860066B8C8 /* Home.swift in Sources */,
 				7BF4376C285A14B70066B8C8 /* App_exo_WarriorsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

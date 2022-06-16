@@ -9,7 +9,22 @@ import SwiftUI
 
 struct Discovery: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            Text("Here some clues ...").font(.title2).bold().italic().foregroundColor(Color("YE"))
+            Image("D1").resizable()
+                .scaledToFill()
+                .frame(width: 350, height: 180, alignment: .topLeading)
+                .clipped()
+            Image("D2").resizable()
+                .scaledToFill()
+                .frame(width: 350, height: 180, alignment: .center)
+                .clipped()
+            Image("D4").resizable()
+                .scaledToFill()
+                .frame(width: 350, height: 180, alignment: .topTrailing)
+                .clipped()
+            Spacer()
+        }
     }
 }
 

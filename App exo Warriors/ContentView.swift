@@ -8,9 +8,33 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var selectedTab = "Home"
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+            TabView(selection: $selectedTab){
+            Warriors()
+              .tabItem {
+                 Image(systemName: "moon.stars")
+                  Text("Warriors")
+               }.tag("Warriors")
+            Home()
+                  .tabItem {
+                     Image(systemName: "globe.asia.australia").accentColor(Color("RED"))
+                     Text("Adventure")
+                   }.tag("Home")
+            Ennemies()
+              .tabItem {
+                 Image(systemName: "flame")
+                 Text("Ennemies")
+               }.tag("Ennemies")
+                
+            }.accentColor(Color("RED"))
+            
+         
+            
+        
+        
+        
     }
 }
 
